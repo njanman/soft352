@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="Bootstrap/bootstrap-3.3.2/docs/examples/carousel/carousel.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="carConfig.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+  <script src="carConfig.js"></script>
+  <link rel="icon" href="audirings.png">
+  <title>Exterior</title>
+</head>
+
+<body>
+  <h1>Car Configurator</h1>
+  <!-- start of carousel -->
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+
+      <li data-target="#myCarousel" data-slide-to="0" id="ci0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1" id="ci1"></li>
+      <li data-target="#myCarousel" data-slide-to="2" id="ci2"></li>
+      <li data-target="#myCarousel" data-slide-to="3" id="ci3"></li>
+      <li data-target="#myCarousel" data-slide-to="4" id="ci4"></li>
+      <li data-target="#myCarousel" data-slide-to="5" id="ci5"></li>
+      <li data-target="#myCarousel" data-slide-to="6" id="ci6"></li>
+      <li data-target="#myCarousel" data-slide-to="7" id="ci7"></li>
+      <li data-target="#myCarousel" data-slide-to="8" id="ci8"></li>
+      <li data-target="#myCarousel" data-slide-to="9" id="ci9"></li>
+
+    </ol>
+
+    <div class="carousel-inner" role="listbox">
+
+      <div class="item active">
+        <img  id="carouselFrontSide" src="RS5/rs5FrontSide.jpeg" alt="First slide">
+      </div>
+
+      <div class="item">
+        <img id="carouselSide" src="RS5/rs5Side.jpeg" alt="Second slide">
+      </div>
+
+      <div class="item">
+        <img id="carouselRearSide" src="RS5/rs5RearSide.jpeg" alt="Third slide">
+      </div>
+
+      <div class="item">
+        <img id="carouselRear" src="RS5/rs5Rear.jpeg" alt="Fourth slide">
+      </div>
+
+      <div class="item">
+        <img id="carouselFront" src="RS5/rs5Front.jpeg" alt="Fifth slide">
+      </div>
+
+      <div class="item">
+        <img id="carouselHeadlights" src="RS5/rs5Headlights.jpeg" alt="Sixth slide">
+      </div>
+
+      <div class="item">
+        <img id="carouselAlloys" src="RS5/rs5Alloys.jpeg" alt="Seventh slide">
+      </div>
+
+      <div class="item">
+        <img id="carouselFrontSeats" src="RS5/rs5RedFrontSeats.jpeg" alt="Eighth slide">
+      </div>
+
+      <div class="item">
+        <img id="carouselDash" src="RS5/rs5Dash.jpeg" alt="Ninth slide">
+      </div>
+
+      <div class="item">
+        <img id="carouselRearSeats" src="RS5/rs5RearSeats.jpeg" alt="Tenth slide">
+      </div>
+
+    </div>
+
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+
+      </a>
+
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+
+      </a>
+
+  </div>
+  <!-- end of carousel -->
+
+  <!-- nav bar -->
+  <ul class="nav nav-pills nav-fill">
+
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#">RS 5 Coupé</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="engine.html">Engine</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link active" href="#">Exterior</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="interior.html">Interior</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="equipment.html">Equipment</a>
+    </li>
+
+  </ul>
+  <!-- end of nav bar -->
+  <!--trim body-->
+  <div id="trim">
+
+    <h1 style="padding-top:1%; text-align:left; font-size:40px;">Choose your look:</h1>
+
+    <h3 style="padding-top:1%; padding-bottom:1%;">Choose from a selection of design features:</h3>
+    <ul style="font-size:16px;">
+      <li>Paint colour</li>
+      <li>Size and style of alloy wheels</li>
+      <li>Type of headlights</li>
+    </ul>
+    <!--column start-->
+    <h1 style="text-align:left; font-size:40px; padding-top:3%; padding-bottom:2%;">Paint</h1>
+    <img id="mainColor" src="RS5/rs5FrontSide.jpeg" style="width:50%; padding-bottom:2%;">
+    <div class="row">
+      <div class="col-4" id="exterior">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend" style="display:block;">
+            <input id="grey" type="image" src="RS5/rs5Grey.jpg" style="width:50%; height:60%;" data-toggle="tooltip" data-placement="top" title="Nardo Grey">
+            <p style="font-size:12px;">Nardo Grey, Solid</p>
+            <p style="font-size:14px; font-weight:bold;">0.00 GBP</p>
+          </div>
+          <div class="input-group-prepend" style="display:block;">
+            <input id="blue" type="image" src="RS5/rs5Blue.jpg" style="width:50%; height:60%;" data-toggle="tooltip" data-placement="top" title="Navarra Blue">
+            <p style="font-size:12px;">Navarra Blue, Metallic</p>
+            <p style="font-size:14px; font-weight:bold;">645.00 GBP</p>
+          </div>
+        </div>
+        
+      </div>
+      <div class="col-3"></div>
+      <div class="col-3" id="summary">
+        <h3 style="text-align:center;">Your RS 5 Coupé</h3>
+        <h4 style="font-weight:unset; text-align:center; font-style:italic;">2.9 TFSI quattro tiptronic</h4>
+        <img id="final" class="summary" src="RS5\rs5Side.jpeg">
+        <p style="text-align:left; font-size:14px; padding-top: 3%;">
+          Base Price
+          <span style="float:right;">150,000 GBP</span>
+        </p>
+        <p style="text-align:left; font-size:14px;">
+          Optional Equipment
+          <span style="float:right;">15,000 GBP</span>
+        </p>
+      </div>      
+    </div>
+    <!--end of row-->
+
+    <h1 style="text-align:left; font-size:40px; padding-top:3%; padding-bottom:2%;">Alloys</h1>
+    <img id="alloys" src="RS5/rs5Alloys.jpeg" style="width:50%; padding-bottom:2%;">
+    <div class="row">
+      <div class="col-5" id="alloy">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend" style="display:block;">
+            <input id="19" type="image" src="RS5/rs5Alloys19.png" style="width:auto;" data-toggle="tooltip" data-placement="top" title='19" x 9.0J 10-Spoke-Star'>
+            <p style="font-size:12px;">19" x 9.0J '10-spoke-star' design forged alloy wheels in Silver with 265/35 R19 tyres</p>
+            <p style="font-size:14px; font-weight:bold;">0.00 GBP</p>
+          </div>
+          <div class="input-group-prepend" style="display:block;">
+            <input id="20" type="image" src="RS5/rs5Alloys20.png" style="width:auto;" data-toggle="tooltip" data-placement="top" title='20" x 9.0J 5-arm trapeziod'>
+            <p style="font-size:12px;">20" x 9.0J '5-arm trapeziod' design forged alloy whees in Anthracite black, diamond cut finish with 275/30 R20 tyres </p>
+            <p style="font-size:14px; font-weight:bold;">2000.00 GBP</p>
+          </div>
+        </div>        
+      </div>      
+    </div>
+    <!--column end-->
+
+    <a href="interior.html">
+      <button type="button" class="btn btn-outline-primary btn-lrg" style="font-size:20px; margin-left:50%; margin-top:3%;">NEXT</button>
+    </a>
+  </div>
+  <!--end trim body-->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
