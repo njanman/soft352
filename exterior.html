@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="carConfig.css">
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
   <script src="carConfig.js"></script>
+  <script src="mongodb.js"></script>
   <link rel="icon" href="audirings.png">
   <title>Exterior</title>
 </head>
@@ -157,7 +158,9 @@
         <img id="final" class="summary" src="RS5\rs5Side.jpeg">
         <p style="text-align:left; font-size:14px; padding-top: 3%;">
           Base Price
-          <span style="float:right;">150,000 GBP</span>
+          <a href="/get-data">
+            <span id="basePrice" style="float:right;">150,000 GBP</span>
+          </a>
         </p>
         <p style="text-align:left; font-size:14px;">
           Optional Equipment
@@ -197,7 +200,7 @@
             <p style="font-size:14px; font-weight:bold;">0.00 GBP</p>
           </div>
           <div class="input-group-prepend" style="display:block;">
-            <input id="matrix" type="image" src="RS5/rs5Matrix.png" style="width:auto;" data-toggle="tooltip" data-placement="top" title="Matrix">
+              <input name="matrix" id="matrix" type="image" src="RS5/rs5Matrix.png" style="width:auto;" data-toggle="tooltip" data-placement="top" title="Matrix">
             <p style="font-size:12px;">RS Matrix LED headlights with LED rear lights and dynamic front and rear indicators</p>
             <p style="font-size:14px; font-weight:bold;">850.00 GBP</p>
           </div>
