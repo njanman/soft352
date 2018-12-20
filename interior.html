@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="carConfig.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
     <script src="carConfig.js"></script>
     <link rel="icon" href="audirings.png">
-    <title>Car Configurator</title>
+    <title>Interior</title>
   </head>
   <body>
     <h1>Car Configurator</h1>
@@ -115,9 +116,76 @@
         <a class="nav-link" href="equipment.html">Equipment</a>
       </li>
 
+      <li class="nav-item">
+        <a class="nav-link" href="summary.html">Summary</a>
+      </li>
+      
     </ul>
   <!-- end of nav bar -->
 
+  <div id="trim">
+    <h1 style="padding-top:1%; text-align:left; font-size:40px;">Tailor your interior</h1>
+    <h3 style="padding-top:1%; width:50%; padding-bottom:1%;">Your choices of seats, upholstery, dashboard and door finishes will personalise your surroundings.
+        These will depend on how you’re likely to use your car and on what’s important to you, for example comfort or driving style.</h3>
+    <!--column start-->
+    <h1 style="text-align:left; font-size:40px; padding-top:3%; padding-bottom:2%;">Seat Style</h1>
+    <img id="seatStyle" src="RS5/rs5RedFrontSeats.jpeg" style="width:50%; padding-bottom:2%;">
+    <div class="row">
+      <div class="col-4" id="interior">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend" style="display:block;">
+            <input id="SSS" type="image" src="RS5/rs5SSportSeat.png" style="width:auto;" data-toggle="tooltip" data-placement="top" title="S Super Sport Seats">
+            <p style="font-size:12px;">S Super Sport Seats</p>
+            <p style="font-size:14px; font-weight:bold;">0.00 GBP (Standard)</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-3"></div>
+      <div class="col-3" id="summary">
+        <h3 style="text-align:center;">Your RS 5 Coupé</h3>
+        <h4 style="font-weight:unset; text-align:center; font-style:italic;">2.9 TFSI quattro tiptronic</h4>
+        <img id="final" class="summary" src="RS5\rs5Side.jpeg">
+        <p style="text-align:left; font-size:14px; padding-top: 3%;">
+          Base Price
+          <span id="basePrice"  style="float:right;">61,690.00 GBP</span>
+        </p>
+        <p style="text-align:left; font-size:14px;">
+          Optional Equipment
+          <span style="float:right;">0.00 GBP</span>
+        </p>
+      </div>      
+    </div>
+    <!--end of row-->
+
+    <h1 style="text-align:left; font-size:40px; padding-top:3%; padding-bottom:2%;">Upholstery</h1>
+    <img id="material" src="RS5/rs5RedFrontSeats.jpeg" style="width:50%; padding-bottom:2%;">
+    <h2 style="padding-top:1%; width:50%; padding-bottom:1%; font-size:30px;">Leather</h2>
+    <div class="row">
+      <div class="col-5" id="upholstery">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend" style="display:block;">
+            <input id="redAndBlack" type="image" src="RS5/rs5RedStitch.jpg" style="width:50%;" data-toggle="tooltip" data-placement="top" title='19" x 9.0J 10-Spoke-Star'>
+            <p style="font-size:12px;">Seats: Black/ Crescendo red, Dashboard: Black, Carpet: Black, Headlining: Black</p>
+            <p style="font-size:14px; font-weight:bold;">0.00 GBP</p>
+          </div>
+          <div class="input-group-prepend" style="display:block;">
+            <input id="lunar" type="image" src="RS5/rs5LunarStitch.jpg" style="width:50%;" data-toggle="tooltip" data-placement="top" title='20" x 9.0J 5-arm trapeziod'>
+            <p style="font-size:12px;">Seats: Lunar silver/ Rock grey, Dashboard: Black, Carpet: Black, Headlining: Black</p>
+            <p style="font-size:14px; font-weight:bold;">0.00 GBP</p>
+          </div>
+        </div>        
+      </div>      
+    </div>
+    <!--column end-->
+
+    <a href="exterior.html">
+      <button type="button" class="btn btn-outline-primary btn-lrg" style="font-size:20px;">BACK</button>
+    </a>
+    <a href="equipment.html">
+      <button type="button" class="btn btn-outline-primary btn-lrg" style="font-size:20px; margin-left:50%;">NEXT</button>
+    </a>
+    <!--end trim body-->
+  </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
