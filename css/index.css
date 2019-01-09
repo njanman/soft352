@@ -1,0 +1,118 @@
+body {padding:5%;}
+#model {width:100%;
+		height:1%;
+		display:flex;
+		margin:auto;
+		padding-top:1%;}
+#a1 {border:1px solid black;
+	 border-radius:10px;
+	 width:100%;
+	 height:100%;
+	 display:flex;
+	 position:relative;}
+#a1txt {text-align:left;
+		padding:5%;}
+#a3 {border:1px solid black;
+	 border-radius:10px;
+	 width:100%;
+	 height:100%;
+	 display:flex;
+	 position:relative;}
+#a3txt {text-align:left;
+		padding:5%;}
+#rs5 {border:1px solid black;
+	 border-radius:10px;
+	 width:100%;
+	 height:100%;
+	 display:flex;
+	 position:relative;}
+#rs5txt {text-align:left;
+		padding:5%;}
+#q8 {border:1px solid black;
+	 border-radius:10px;
+	 width:100%;
+	 height:100%;
+	 display:flex;
+	 position:relative;}
+#q8txt {text-align:left;
+		padding:5%;}
+table {width:100%;
+		margin:auto;}
+h1 {text-align:center;}
+hr {background-color:#fe0101;
+	height:0.5px;}
+#blank {width:5%;}
+img {margin:auto;
+	 max-height:100%;
+	 max-width:100%;
+	 top:0;
+	 bottom:0;
+	 left:0;
+	 right:0;}
+#next {text-align:center;}
+#a1:hover {background-color:#C6C6C6;}
+#a3:hover {background-color:#C6C6C6;}
+#rs5:hover {background-color:#C6C6C6;}
+#q8:hover {background-color:#C6C6C6;}
+#myCarousel.carousel.slide {width:100%;
+							height:50%;}
+.carousel-indicators {margin:auto;
+					  width:80%;}
+#ci0 {background-color:black;}
+#ci1 {background-color:black;}
+#ci2 {background-color:black;}
+#ci3 {background-color:black;}
+#ci4 {background-color:black;}
+#ci5 {background-color:black;}
+#ci6 {background-color:black;}
+#ci7 {background-color:black;}
+#ci8 {background-color:black;}
+#ci9 {background-color:black;}
+a.left.carousel-control {width:0%;}
+a.right.carousel-control {width:0%;}
+span.glyphicon.glyphicon-chevron-left{color:#a5a5a5;}
+span.glyphicon.glyphicon-chevron-right{color:#a5a5a5;}
+.nav-link {font-size:16px;}
+#engine {border:1px solid black;
+		 height:100%;
+		 padding:none;}
+#equipment {height:100%;
+		 padding:none;}
+#summary {border:1px solid black;
+		  height:100%;
+		  margin-left:10%;
+		  margin-right:0;
+		  display: block;}
+.row {margin:auto;}
+.summary{padding-top:1%;}
+.input-group.mb-3 {padding-top:2%;
+				   padding-bottom:2%;}
+#check {zoom:3;
+		width:50%;
+		display:block;
+		margin-right: auto;
+		margin-left: auto;}
+.form-control {zoom:2;
+			   border:none;
+			   -webkit-box-shadow:none;
+			   box-shadow: none;
+			   margin-top:2%;
+			   height:3%;
+			   font-size:8px;}
+#engine-info {padding-bottom:1%;
+		 	  font-size:12px;
+		 	  background-color:#eaeaea;
+		 	  margin:auto;
+		 	  width:100%;}
+#exterior {height:100%;
+		   padding:none;}
+#interior {height:100%;
+			padding:none;}
+#alloy {height:100%;
+		padding:none;}
+#upholstery {height:100%;
+			padding:none;}
+.input-group-prepend {word-wrap: break-word;
+					width:50%;}
+.card-body{border-top:2px solid #EFE7E7;}
+.collapse{border:2px solid #EFE7E7;}
